@@ -1,0 +1,3 @@
+1088a1089,1090
+> //	printk(KERN_DEBUG "pid e baba");
+> 	printk(KERN_DEBUG "pid e baba : %d\n", p->pid);

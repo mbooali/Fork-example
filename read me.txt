@@ -1,0 +1,12 @@
+Modify source code of a Linux kernel 2.4.37.9 (you can download it from kernel.org) to log the required parameter of the following system calls based on your sum of your group student numbers [sum(student numbers of group members) mod 5]. By using diff, create a patch needed to apply these modifications on an old kernel.
+
+0. Changing the permissions of a file: File name, mode 
+1. Mounting a file system: directory name, type 
+2. Making a directory: pathname, mode 
+3. Creation of a socket: type, protocol
+4. Creation of a child process using fork: parent pid, child pid
+
+You must upload the following: 
+1. Patch file 
+2. Log file showing output of your change (last 50 lines)
+3. Report about the changes you have made
